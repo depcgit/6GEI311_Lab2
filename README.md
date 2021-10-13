@@ -2,7 +2,9 @@
 
 ## Description
 Cours: 6GEI311 - Architecture des Logiciels
+
 Laboratoire 2: Création d'un module python en C/C++
+
 Auteurs: Raphaëlle Martin (MARR24569507) et David-Emmanuel Perron-Chouinard (PERD17119702)
 
 ## Instructions d'utilisation:
