@@ -48,7 +48,9 @@ L'utilisateur doit avoir "DirectShow" et "Python 3" installé sur son ordinateur
 
 ## Guide d'utilisation
 Le programme doit être exécuté avec python, en ouvrant un indice de commande et en entrant la commande suivante:
+
 	python PATH_TO_FILE
+	
 Cette commande peut varier selon votre installation de Python
 Lors de l'exécution du programme les commandes: P, A, R et Q peuvent être entrées dans la console exécutant le programme.
 
