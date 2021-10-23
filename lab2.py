@@ -2,7 +2,7 @@
 import keyboard
 import sys
 sys.path.append(
-    "C:/Users/Raphaelle/Documents/UniDocs/Automne 2021/Architecture_logiciels/lab2/6GEI311_lab2/x64/Release")
+    "C:/Users/david/Documents/GitHub/6GEI311_Lab2/x64/Release")
 
 import Lab2
 
@@ -20,7 +20,7 @@ keyboard.on_press_key("p", lambda _: Lab2.PlayPause())
 keyboard.on_press_key("r", lambda _: Lab2.Replay())
 keyboard.on_press_key("a", lambda _: Lab2.Accelerate())
 
-Lab2.Start("", "C:/Users/Raphaelle/Documents/UniDocs/Automne 2021/Architecture_logiciels/6GEI311_lab1/Example.avi")
+Lab2.Start("", "C:/Users/david/Documents/GitHub/6GEI311_Lab1/Example.avi")
 
 while(not quit):
     pass

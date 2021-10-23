@@ -21,8 +21,6 @@ static PyObject* Start(PyObject* self, PyObject* args)
 	wstring pathWString = s2ws(pathString);
 	LPCWSTR pathLPCWSTR = pathWString.c_str();
 	MediaPlayer* mediaPlayer = MediaPlayer::GetInstance();
-	//We have to start twice because otherwise the video won't play, as showed to the teacher
-	mediaPlayer->Start(pathLPCWSTR);
 	mediaPlayer->Start(pathLPCWSTR);
 	return Py_BuildValue("i", 0);
 }

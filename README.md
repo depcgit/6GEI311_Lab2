@@ -45,7 +45,7 @@ Veuillez vous assurer d'être en mode "Release"
 -VC++ directories -> librairy directories: ajouter le path vers le dossier "libs" de Python
 
 ## Dépendances:
-L'utilisateur doit avoir "DirectShow" et "Python 3" installé sur son ordinateur.
+L'utilisateur doit avoir "DirectShow" et "Python 3" installé sur son ordinateur. Aussi, il doit avoir le module Python "keyboard".
 
 
 ## Guide d'utilisation
